@@ -6,7 +6,7 @@ export default function LogoHeader() {
     return (
       <header className="flex justify-center items-center mt-5">
         <a href="/">
-          <Image src="/logo.png" width={size} height={size}></Image>
+          <Image alt="Logo of Champdle" src="/logo.png" width={size} height={size}></Image>
         </a>
       </header>
     )    
