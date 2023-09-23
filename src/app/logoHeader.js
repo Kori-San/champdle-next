@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default function LogoHeader() {
-    const size = 500;
+    const size = 450;
 
     return (
       <header className="flex justify-center items-center mt-5">

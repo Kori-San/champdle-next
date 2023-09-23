@@ -1,4 +1,7 @@
-import './globals.css'
+import './css/button.css'
+import './css/font.css'
+import './css/globals.css'
+
 import { Inter } from 'next/font/google'
 import LogoHeader from "./logoHeader"
 
