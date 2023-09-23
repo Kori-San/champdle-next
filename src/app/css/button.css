@@ -1,0 +1,27 @@
+/* League Button */
+.league-button {
+    background: #1e2328;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #0df6fc, #0a9bc4);
+    border-image-slice: 1;
+    border-width: 3px;
+    border-style: dashed;
+    padding: 10px;
+    transition: all 0.3ms ease-out;
+}
+
+.league-button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px #076571;
+    transition: all 0.3ms ease-out;
+}
+
+.league-button:disabled {
+    border-image: linear-gradient(to bottom, #fa051d, #802525);
+    border-image-slice: 1;
+}
+
+.league-button:disabled:hover {
+    cursor: not-allowed;
+    box-shadow: 0 5px 10px #48070a;
+}

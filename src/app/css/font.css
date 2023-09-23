@@ -1,0 +1,19 @@
+/* Font Settings */
+@font-face {
+    font-family: Friz;
+    src: url("/font/FrizQuadrataTT.woff"), format(sans-serif);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("/font/Rubik.woff"), format(sans-serif);
+}
+
+/* League Text */ 
+.league-font {
+    text-align: center;
+    color: #cdbe91;
+    font-family: 'Friz', sans-serif;
+    font-variant: small-caps;
+    font-size: large;
+}

@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Background */
 .background {
   background: linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)),
       url(/background.jpg) no-repeat 50% fixed;
   background-size: cover;
+}
+
+/* General Settings  */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #cdbe91;
+    text-decoration: none;
 }
